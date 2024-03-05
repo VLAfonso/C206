@@ -5,11 +5,11 @@ public class Zumbi {
     String nome;
 
     double mostraVida(){
-        return vida;
+        return this.vida;
     }
 
     boolean transfereVida(Zumbi zumbiAlvo, double quantia){
-        if(vida >= quantia){
+        if(this.vida >= quantia){
             vida -= quantia;
             zumbiAlvo.vida += quantia;
             return true;
