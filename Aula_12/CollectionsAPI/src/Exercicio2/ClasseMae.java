@@ -2,8 +2,8 @@ package Exercicio2;
 
 public abstract class ClasseMae implements Comparable <ClasseMae> {
     //Atributos da classe
-    private String texto;
-    private int numero;
+    protected String texto;
+    protected int numero;
 
     //Construtor da classe
     public ClasseMae(String texto, int numero) {
